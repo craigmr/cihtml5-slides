@@ -7,15 +7,16 @@ Craig Simpson
 
 In the commandline install dependencies
 
-'''
+```
 $ npm install
-'''
+```
 
 Start the server
 
-'''
+```
 $ grunt serve
-'''
+```
+
 Navigate to (http://localhost:8000)[http://localhost:8000]
 
 or
