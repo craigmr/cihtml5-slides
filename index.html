@@ -24,7 +24,17 @@
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
-
+		
+		<style type="text/css">
+			.reveal section img  {
+				margin:none;
+				border:none;
+				box-shadow:none;
+				background:none;
+				margin:0px;
+				vertical-align:middle;
+			}
+		</style>
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
